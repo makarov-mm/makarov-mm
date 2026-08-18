@@ -11,7 +11,7 @@ Open to remote positions across Germany and the EU, or hybrid in Munich.
 
 ## About me
 
-I started with physics. I have a university degree in physics, and my first serious program was a simulation suite written in Delphi 7 with OpenGL in 2004: rigid bodies, springs, fields, particle systems. That project never really ended. Twenty years later it has become the Makarov Physics Suite, roughly 90 GPU simulation modules covering classical mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum systems, with more than 300 automated numerical verifications against analytical solutions.
+I started with physics. I have a university degree in physics, and my first serious program was a simulation suite written in Delphi 7 with OpenGL in 2004: rigid bodies, springs, fields, particle systems. That project never really ended. Twenty years later it has become the Makarov Physics Suite, roughly 120+ GPU simulation modules covering classical mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum systems, with more than 300 automated numerical verifications against analytical solutions.
 
 Professionally I spent those two decades in enterprise software. ASP.NET Core services, MS SQL and Entity Framework data layers, WPF and WinForms desktop clients, and a long specialization in legacy modernization: taking Delphi and old .NET Framework systems that a business still depends on and moving them forward without breaking the business.
 
@@ -47,26 +47,44 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 ### Makarov Physics Suite
 The main one. Around 120+ interactive GPU simulation modules in C# and C++, covering mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum mechanics. Over 300 automated verifications compare simulation output against analytical results. Published on Steam, App ID 4861360.
 
-### vkPhoton
-Vulkan compute pipeline for photon transport and light simulation. Written directly against the Vulkan API with no wrapper libraries.
-
-### TurbulenceLab
-Real-time fluid simulation around a NACA 0012 airfoil, written in Swift and Metal for macOS. Vorticity visualization, adjustable angle of attack and Reynolds number.
-
-### SmokeDX12
-Volumetric smoke simulation on DirectX 12. Semi-Lagrangian advection, pressure projection, GPU compute throughout.
+[![Makarov Physics Suite](makarov_physics_suite.png)](
+    https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
+)
 
 ### Vulkan Ray Tracing Scene Editor
 Interactive scene editor using hardware-accelerated ray tracing through the Vulkan RT extensions.
 
+[![Vulkan Raytracing](vulkan.png)](
+    https://github.com/makarov-mm/vulkan-rt-vs-pt-editor
+)
+
+### TurbulenceLab
+Real-time fluid simulation around a NACA 0012 airfoil, written in Swift and Metal for macOS. Vorticity visualization, adjustable angle of attack and Reynolds number.
+
+[![Turbulence Lab](turbulence.png)](
+    https://github.com/makarov-mm/turbulence-lab
+)
+
 ### Cloth Simulation
 Mass-spring cloth solver implemented twice, once in C# with OpenGL and once in Swift with Metal, for direct comparison of the two stacks.
+
+[![Cloth Simulation](cloth.jpg)](
+    https://github.com/makarov-mm/cloth-simulation
+)
 
 ### Gray-Scott Reaction-Diffusion
 Reaction-diffusion pattern generation implemented in Elixir and in Swift, exploring functional and GPU approaches to the same PDE.
 
+[![Gray-Scott Reaction-Diffusion](gray_scott.jpg)](
+    https://github.com/makarov-mm/gray-scott-elixir
+)
+
 ### Boids
 Flocking simulation implemented in Erlang, C++, and Swift with Metal. Three languages, three concurrency models, one algorithm.
+
+[![Boids](boids.jpg)](
+    https://github.com/makarov-mm/boids-metal-erlang
+)
 
 ### Quantum Wave Simulator
 Time-dependent Schrodinger equation solver with Metal compute shaders. Tunneling, wave packet dispersion, potential wells.
@@ -74,8 +92,14 @@ Time-dependent Schrodinger equation solver with Metal compute shaders. Tunneling
 ### Schematic Editor with AC Simulation
 Circuit schematic editor with nodal analysis and AC simulation, built in C# with WPF and again in Swift.
 
+[![Schematic Editor](schematic-editor.png)](
+    https://github.com/makarov-mm/schematic-editor
+)
+
 ### Delphi Physics Suite
 The original 2004 codebase, preserved and gradually modernized from Delphi 7.
+
+[](https://github.com/makarov-mm/MakarovPhysics)
 
 ---
 
