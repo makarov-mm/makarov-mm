@@ -47,42 +47,42 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 ### Makarov Physics Suite
 The main one. Around 120+ interactive GPU simulation modules in C# and C++, covering mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum mechanics. Over 300 automated verifications compare simulation output against analytical results. Published on Steam, App ID 4861360.
 
-[![Makarov Physics Suite](makarov_physics_suite.png)](
+[![Makarov Physics Suite](images/makarov_physics_suite.png)](
     https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 )
 
 ### Vulkan Ray Tracing Scene Editor
 Interactive scene editor using hardware-accelerated ray tracing through the Vulkan RT extensions.
 
-[![Vulkan Raytracing](vulkan.png)](
+[![Vulkan Raytracing](images/vulkan.png)](
     https://github.com/makarov-mm/vulkan-rt-vs-pt-editor
 )
 
 ### TurbulenceLab
 Real-time fluid simulation around a NACA 0012 airfoil, written in Swift and Metal for macOS. Vorticity visualization, adjustable angle of attack and Reynolds number.
 
-[![Turbulence Lab](turbulence.png)](
+[![Turbulence Lab](images/turbulence.png)](
     https://github.com/makarov-mm/turbulence-lab
 )
 
 ### Cloth Simulation
 Mass-spring cloth solver implemented twice, once in C# with OpenGL and once in Swift with Metal, for direct comparison of the two stacks.
 
-[![Cloth Simulation](cloth.jpg)](
+[![Cloth Simulation](images/cloth.jpg)](
     https://github.com/makarov-mm/cloth-simulation
 )
 
 ### Gray-Scott Reaction-Diffusion
 Reaction-diffusion pattern generation implemented in Elixir and in Swift, exploring functional and GPU approaches to the same PDE.
 
-[![Gray-Scott Reaction-Diffusion](gray_scott.jpg)](
+[![Gray-Scott Reaction-Diffusion](images/gray_scott.jpg)](
     https://github.com/makarov-mm/gray-scott-elixir
 )
 
 ### Boids
 Flocking simulation implemented in Erlang, C++, and Swift with Metal. Three languages, three concurrency models, one algorithm.
 
-[![Boids](boids.jpg)](
+[![Boids](images/boids.jpg)](
     https://github.com/makarov-mm/boids-metal-erlang
 )
 
@@ -92,7 +92,7 @@ Time-dependent Schrodinger equation solver with Metal compute shaders. Tunneling
 ### Schematic Editor with AC Simulation
 Circuit schematic editor with nodal analysis and AC simulation, built in C# with WPF and again in Swift.
 
-[![Schematic Editor](schematic-editor.png)](
+[![Schematic Editor](images/schematic-editor.png)](
     https://github.com/makarov-mm/schematic-editor
 )
 
