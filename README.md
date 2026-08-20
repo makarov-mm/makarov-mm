@@ -138,3 +138,8 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 ---
 
 <sub>Keywords: Mykhailo Makarov, Michael Makarov, Makarov, senior .NET developer Munich, C# developer Germany, ASP.NET Core engineer, WPF developer, Delphi modernization, legacy migration specialist, Vulkan developer, DirectX 12, Metal, CUDA, GPU compute, physics simulation, computational physics, fluid dynamics simulation, real-time rendering, graphics programmer, remote .NET developer Europe.</sub>
+
+---
+
+- https://qiita.com/makarov-mm
+- https://zenn.dev/makarov
