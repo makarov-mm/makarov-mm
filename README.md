@@ -1,4 +1,4 @@
-# Mykhailo Makarov (Michael Makarov, Михаил Макаров)
+# Mykhailo Makarov (Michael Makarov)
 
 **Senior .NET / C# Software Engineer. Munich, Germany.**
 Enterprise backend, desktop applications, legacy modernization, and GPU physics simulation.
