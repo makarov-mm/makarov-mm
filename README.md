@@ -132,6 +132,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 - GitHub: [github.com/makarov-mm](https://github.com/makarov-mm)
 - LinkedIn: [linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
+- X: [x.com/makarov_bayern](https://x.com/makarov_bayern)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
 
