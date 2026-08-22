@@ -132,15 +132,21 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 - GitHub: [github.com/makarov-mm](https://github.com/makarov-mm)
 - LinkedIn: [linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
+- Threads: [threads.com/@m.m.makarov](https://www.threads.com/@m.m.makarov)
 - X: [x.com/makarov_bayern](https://x.com/makarov_bayern)
+- YouTube: [youtube.com/@makarov.m.m](https://www.youtube.com/@makarov.m.m)
+- Instagram: [instagram.com/m.m.makarov](https://www.instagram.com/m.m.makarov)
+- Buy me a coffee: [buymeacoffee.com/makarovmm](https://buymeacoffee.com/makarovmm)
+- Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
+- Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
+- Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
+- Rutube: [rutube.ru/channel/1319322/](https://rutube.ru/channel/1319322/)
+- Vkontakte: [vk.ru/misha_bayern](https://vk.ru/misha_bayern)
+- Pikabu: [pikabu.ru/@KevlarBeaver](https://pikabu.ru/@KevlarBeaver)
+- Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
 
 ---
 
 <sub>Keywords: Mykhailo Makarov, Michael Makarov, Makarov, senior .NET developer Munich, C# developer Germany, ASP.NET Core engineer, WPF developer, Delphi modernization, legacy migration specialist, Vulkan developer, DirectX 12, Metal, CUDA, GPU compute, physics simulation, computational physics, fluid dynamics simulation, real-time rendering, graphics programmer, remote .NET developer Europe.</sub>
-
----
-
-- https://qiita.com/makarov-mm
-- https://zenn.dev/makarov
