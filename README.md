@@ -45,7 +45,17 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 ## Selected projects
 
 ### Makarov Physics Suite
-The main one. Around 120+ interactive GPU simulation modules in C# and C++, covering mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum mechanics. Over 300 automated verifications compare simulation output against analytical results. Published on Steam, App ID 4861360.
+The main project. Makarov Physics Suite is a collection of more than 120 interactive physics simulation modules written primarily in C# and C++, with extensive use of GPU computing for real-time numerical simulation and visualization.
+
+The suite covers a broad range of physics, including classical mechanics, rigid-body dynamics, gravitation, oscillations and waves, fluid dynamics, electromagnetism, optics, thermodynamics, statistical physics, relativity, and quantum mechanics.
+
+The emphasis is on interactive simulation rather than predefined animations: parameters can be changed at runtime, systems can be perturbed and explored, and the resulting physical behavior is calculated numerically in real time. Different modules employ techniques such as numerical integration of differential equations, particle systems, N-body methods, SPH fluid simulation, charged-particle dynamics, ray tracing, path tracing, and GPU-accelerated computation.
+
+Correctness is an important part of the project. The codebase contains more than 300 automated verification tests that compare numerical simulation results against analytical solutions, conservation laws, reference values, and other known physical results.
+
+The project has its roots in an earlier physics program I started developing while at university more than 20 years ago. The current version is effectively a complete reimplementation and a compilation of ideas, experiments, algorithms, and simulation work accumulated over many years.
+
+Makarov Physics Suite is published on Steam (App ID 4861360): https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 
 [![Makarov Physics Suite](images/makarov_physics_suite.png)](
     https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
