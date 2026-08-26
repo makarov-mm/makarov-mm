@@ -144,10 +144,10 @@ https://github.com/makarov-mm/MakarovPhysics
 ## Technologies
 
 **Languages**
-C#, C++, Delphi / Object Pascal, Swift, SQL, GLSL, HLSL, MSL, Python, Elixir, Erlang
+C#, C, C++, Delphi / Object Pascal, Swift, Rust, SQL, GLSL, HLSL, MSL, Python, Elixir, Erlang, JavaScript, TypeScript
 
 **.NET**
-.NET 8, .NET Core, .NET Framework, ASP.NET Core, Entity Framework Core, WPF, WinForms, MVVM, xUnit, NUnit
+.NET, .NET Core, .NET Framework, ASP.NET Core, Entity Framework Core, WPF, WinForms, MVVM, xUnit, NUnit
 
 **Graphics and compute**
 Vulkan, DirectX 12, OpenGL, Metal, CUDA, compute shaders, hardware ray tracing
