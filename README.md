@@ -26,7 +26,7 @@ Full professional history: [linkedin.com/in/makarov-mm](https://www.linkedin.com
 ## What I do
 
 **Enterprise backend**
-C#, .NET 8 / .NET Core, ASP.NET Core, REST APIs, Entity Framework Core, MS SQL Server, PostgreSQL, background services, integrations, domain modeling, unit and integration testing.
+C#, .NET / .NET Core, ASP.NET Core, REST APIs, Entity Framework Core, MS SQL Server, PostgreSQL, background services, integrations, domain modeling, unit and integration testing.
 
 **Desktop applications**
 WPF with MVVM, WinForms, custom controls, data-heavy UI, hardware-accelerated rendering embedded in business applications.
