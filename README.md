@@ -61,55 +61,83 @@ Makarov Physics Suite is published on Steam (App ID 4861360): https://store.stea
     https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 )
 
+---
+
 ### Vulkan Ray Tracing Scene Editor
 Interactive scene editor using hardware-accelerated ray tracing through the Vulkan RT extensions.
+
+https://github.com/makarov-mm/vulkan-rt-vs-pt-editor
 
 [![Vulkan Raytracing](images/vulkan.png)](
     https://github.com/makarov-mm/vulkan-rt-vs-pt-editor
 )
 
+---
+
 ### TurbulenceLab
 Real-time fluid simulation around a NACA 0012 airfoil, written in Swift and Metal for macOS. Vorticity visualization, adjustable angle of attack and Reynolds number.
+
+https://github.com/makarov-mm/turbulence-lab
 
 [![Turbulence Lab](images/turbulence.png)](
     https://github.com/makarov-mm/turbulence-lab
 )
 
+---
+
 ### Cloth Simulation
 Mass-spring cloth solver implemented twice, once in C# with OpenGL and once in Swift with Metal, for direct comparison of the two stacks.
+
+https://github.com/makarov-mm/cloth-simulation
 
 [![Cloth Simulation](images/cloth.jpg)](
     https://github.com/makarov-mm/cloth-simulation
 )
 
+---
+
 ### Gray-Scott Reaction-Diffusion
 Reaction-diffusion pattern generation implemented in Elixir and in Swift, exploring functional and GPU approaches to the same PDE.
+
+https://github.com/makarov-mm/gray-scott-elixir
 
 [![Gray-Scott Reaction-Diffusion](images/gray_scott.jpg)](
     https://github.com/makarov-mm/gray-scott-elixir
 )
 
+---
+
 ### Boids
 Flocking simulation implemented in Erlang, C++, and Swift with Metal. Three languages, three concurrency models, one algorithm.
+
+https://github.com/makarov-mm/boids-metal-erlang
 
 [![Boids](images/boids.jpg)](
     https://github.com/makarov-mm/boids-metal-erlang
 )
 
+---
+
 ### Quantum Wave Simulator
 Time-dependent Schrodinger equation solver with Metal compute shaders. Tunneling, wave packet dispersion, potential wells.
 
+---
+
 ### Schematic Editor with AC Simulation
 Circuit schematic editor with nodal analysis and AC simulation, built in C# with WPF and again in Swift.
+
+https://github.com/makarov-mm/schematic-editor
 
 [![Schematic Editor](images/schematic-editor.png)](
     https://github.com/makarov-mm/schematic-editor
 )
 
+---
+
 ### Delphi Physics Suite
 The original 2004 codebase, preserved and gradually modernized from Delphi 7.
 
-[](https://github.com/makarov-mm/MakarovPhysics)
+https://github.com/makarov-mm/MakarovPhysics
 
 ---
 
