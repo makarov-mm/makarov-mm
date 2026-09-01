@@ -63,6 +63,34 @@ Makarov Physics Suite is published on Steam (App ID 4861360): https://store.stea
 
 ---
 
+### Makarov Math Suite
+Second product built on the same codebase as the Physics Suite. In development.
+
+The three suites share one source tree, one renderer, and one module framework. A product manifest decides what goes into each build: which executable, which modules, which carousel layout, which shell strings and locales. Shared code never references a product; a dedicated checker enforces that rule at build time, and the release folder of the Physics Suite was verified file for file and hash for hash before and after the split.
+
+The Math Suite is organized around three groups:
+
+- Fractals and the complex plane: Mandelbrot and Julia sets with a live parameter map, deep zoom, fractal trees, dendritic growth, reaction-diffusion patterns.
+- Chaos and dynamical systems: the logistic map with a bifurcation diagram and cobweb plot, strange attractors, the double pendulum, predator-prey models, cellular automata, self-organized criticality.
+- Probability, networks, and form: percolation, the Galton board, random walks, the Ising model, Hopfield networks, supershapes, Riemann surfaces, hyperbolic geometry, vector fields.
+
+Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets.
+
+---
+
+### Makarov Astronomy Suite
+Third product on the same codebase. In development.
+
+Positioned as a measurement laboratory rather than a planetarium or a sandbox: the point is to set up an experiment, change a parameter, and read the result off the screen. Three groups:
+
+- Gravity and celestial mechanics: Kepler orbits, N-body systems, planetary motion and retrograde loops, galaxy dynamics, gravitational waves.
+- Light, spectra, and instruments: blackbody radiation, Rømer's measurement of the speed of light, the hydrogen spectrum, prisms and ray optics, the optics bench.
+- Extreme objects and plasma: black holes, aurora, tokamak plasma, radioactive decay, Cherenkov radiation, muon lifetime.
+
+The astronomy-specific engineering problems are floating-point precision at astronomical scales, symplectic integrators that keep orbits stable over long simulated times, and verification of ephemerides against JPL Horizons. The hardware ray tracer written for the optics modules is reused for black hole ray tracing and gravitational lensing.
+
+---
+
 ### Vulkan Ray Tracing Scene Editor
 Interactive scene editor using hardware-accelerated ray tracing through the Vulkan RT extensions.
 
