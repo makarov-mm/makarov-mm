@@ -202,6 +202,8 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Twitter: [x.com/makarov_bayern](https://x.com/makarov_bayern)
 - YouTube: [youtube.com/@makarov.m.m](https://www.youtube.com/@makarov.m.m)
 - Instagram: [instagram.com/m.m.makarov](https://www.instagram.com/m.m.makarov)
+- Tech Instagram: [instagram.com/makarov.dev](https://www.instagram.com/makarov.dev)
+- Gaming Instagram: [instagram.com/makarov.gamer](https://www.instagram.com/makarov.gamer)
 - Reddit: [reddit.com/user/mischa_bayern/](https://www.reddit.com/user/mischa_bayern/)
 - Buy me a coffee: [buymeacoffee.com/makarovmm](https://buymeacoffee.com/makarovmm)
 - Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
