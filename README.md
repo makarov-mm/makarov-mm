@@ -224,4 +224,20 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 ---
 
+Qiitaで書いている記事
+
+- [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://qiita.com/makarov-mm/items/71552a35310f89f7a603)
+- [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://qiita.com/makarov-mm/items/eaec22e0b40d6bce8492)
+- [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://qiita.com/makarov-mm/items/342e87a4ff3dcb25f64d)
+- [Visual Basic 6 で乱流は計算できるのか？NACA 0012 翼まわりの 2D Navier–Stokes ソルバー](https://qiita.com/makarov-mm/items/2c2afc27ef40d3edf045)
+- [個人開発で物理シミュレーション集を作りました（126モジュール・GPU計算対応）](https://qiita.com/makarov-mm/items/2a3ccf61918e33b97ccb)
+- [物理プログラム集 — 120以上のインタラクティブ物理実験](https://qiita.com/makarov-mm/items/d91f2397242d1456fe50)
+- [macOS版 Makarov Physics Suite](https://qiita.com/makarov-mm/items/1399804b8310a9d31e8b)
+- [2476個のレンガの城を鉄球で壊す — 剛体ソルバに「崩れ方」を一切教えずに](https://qiita.com/makarov-mm/items/e7b4fe651f4031af8eea)
+- [粉体ドラム（Granular tumbler）](https://qiita.com/makarov-mm/items/5315779b0999af0ba84c)
+- [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://qiita.com/makarov-mm/items/32a7b309444012f8f806)
+- [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://qiita.com/makarov-mm/items/786f19c0e85a79b718f3)
+
+---
+
 <sub>Keywords: Mykhailo Makarov, Michael Makarov, Makarov, senior .NET developer Munich, C# developer Germany, ASP.NET Core engineer, WPF developer, Delphi modernization, legacy migration specialist, Vulkan developer, DirectX 12, Metal, CUDA, GPU compute, physics simulation, computational physics, fluid dynamics simulation, real-time rendering, graphics programmer, remote .NET developer Europe.</sub>
