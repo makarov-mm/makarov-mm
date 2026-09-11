@@ -240,4 +240,18 @@ Qiitaで書いている記事
 
 ---
 
+- [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://zenn.dev/makarov/articles/a63340d91e8998)
+- [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://zenn.dev/makarov/articles/8943b7055bc7d3)
+- [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://zenn.dev/makarov/articles/ef64609b82a4b5)
+- [Visual Basic 6 で乱流は計算できるのか？NACA 0012 翼まわりの 2D Navier–Stokes ソルバー](https://zenn.dev/makarov/articles/e3a333737265f2)
+- [個人開発で物理シミュレーション集を作りました（126モジュール・GPU計算対応）](https://zenn.dev/makarov/articles/5d479d7ca16e96)
+- [物理プログラム集 — 120以上のインタラクティブ物理実験](https://zenn.dev/makarov/articles/97fc4e976270c9)
+- [macOS版 Makarov Physics Suite](https://zenn.dev/makarov/articles/a3885682c72cad)
+- [2476個のレンガの城を鉄球で壊す — 剛体ソルバに「崩れ方」を一切教えずに](https://zenn.dev/makarov/articles/d2cf511a3bbf05)
+- [粉体ドラム（Granular tumbler）](https://zenn.dev/makarov/articles/432b451dab1f63)
+- [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://zenn.dev/makarov/articles/69a23f303921ef)
+- [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://zenn.dev/makarov/articles/c7cd07aba71a5f)
+
+---
+
 <sub>Keywords: Mykhailo Makarov, Michael Makarov, Makarov, senior .NET developer Munich, C# developer Germany, ASP.NET Core engineer, WPF developer, Delphi modernization, legacy migration specialist, Vulkan developer, DirectX 12, Metal, CUDA, GPU compute, physics simulation, computational physics, fluid dynamics simulation, real-time rendering, graphics programmer, remote .NET developer Europe.</sub>
