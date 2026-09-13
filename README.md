@@ -76,6 +76,12 @@ The Math Suite is organized around three groups:
 
 Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets.
 
+Makarov Math Suite is published on Steam (App ID 5204230): https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
+
+[![Makarov Math Suite](images/makarov_math_suite.png)](
+    https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
+)
+
 ---
 
 ### Makarov Astronomy Suite
@@ -215,6 +221,38 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
+
+---
+
+## Qiitaで書いている記事
+
+- [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://qiita.com/makarov-mm/items/71552a35310f89f7a603)
+- [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://qiita.com/makarov-mm/items/eaec22e0b40d6bce8492)
+- [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://qiita.com/makarov-mm/items/342e87a4ff3dcb25f64d)
+- [Visual Basic 6 で乱流は計算できるのか？NACA 0012 翼まわりの 2D Navier–Stokes ソルバー](https://qiita.com/makarov-mm/items/2c2afc27ef40d3edf045)
+- [個人開発で物理シミュレーション集を作りました（126モジュール・GPU計算対応）](https://qiita.com/makarov-mm/items/2a3ccf61918e33b97ccb)
+- [物理プログラム集 — 120以上のインタラクティブ物理実験](https://qiita.com/makarov-mm/items/d91f2397242d1456fe50)
+- [macOS版 Makarov Physics Suite](https://qiita.com/makarov-mm/items/1399804b8310a9d31e8b)
+- [2476個のレンガの城を鉄球で壊す — 剛体ソルバに「崩れ方」を一切教えずに](https://qiita.com/makarov-mm/items/e7b4fe651f4031af8eea)
+- [粉体ドラム（Granular tumbler）](https://qiita.com/makarov-mm/items/5315779b0999af0ba84c)
+- [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://qiita.com/makarov-mm/items/32a7b309444012f8f806)
+- [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://qiita.com/makarov-mm/items/786f19c0e85a79b718f3)
+
+---
+
+## Zennで書いている記事
+
+- [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://zenn.dev/makarov/articles/a63340d91e8998)
+- [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://zenn.dev/makarov/articles/8943b7055bc7d3)
+- [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://zenn.dev/makarov/articles/ef64609b82a4b5)
+- [Visual Basic 6 で乱流は計算できるのか？NACA 0012 翼まわりの 2D Navier–Stokes ソルバー](https://zenn.dev/makarov/articles/e3a333737265f2)
+- [個人開発で物理シミュレーション集を作りました（126モジュール・GPU計算対応）](https://zenn.dev/makarov/articles/5d479d7ca16e96)
+- [物理プログラム集 — 120以上のインタラクティブ物理実験](https://zenn.dev/makarov/articles/97fc4e976270c9)
+- [macOS版 Makarov Physics Suite](https://zenn.dev/makarov/articles/a3885682c72cad)
+- [2476個のレンガの城を鉄球で壊す — 剛体ソルバに「崩れ方」を一切教えずに](https://zenn.dev/makarov/articles/d2cf511a3bbf05)
+- [粉体ドラム（Granular tumbler）](https://zenn.dev/makarov/articles/432b451dab1f63)
+- [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://zenn.dev/makarov/articles/69a23f303921ef)
+- [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://zenn.dev/makarov/articles/c7cd07aba71a5f)
 
 ---
 
