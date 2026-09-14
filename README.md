@@ -11,13 +11,13 @@ Open to remote positions across Germany and the EU, or hybrid in Munich.
 
 ## About me
 
-I started with physics. I have a university degree in physics, and my first serious program was a simulation suite written in Delphi 7 with OpenGL in 2004: rigid bodies, springs, fields, particle systems. That project never really ended. Twenty years later it has become the Makarov Physics Suite, roughly 120+ GPU simulation modules covering classical mechanics, fluids, electromagnetism, optics, thermodynamics, and quantum systems, with more than 300 automated numerical verifications against analytical solutions.
+I started with physics. I have a university degree in physics, and my first serious program was a simulation suite written in Delphi 7 with OpenGL in 2004: rigid bodies, springs, fields, particle systems. That project never really ended. Twenty years later it has become the Makarov Physics Suite: 140 interactive simulation modules covering classical mechanics, fluids, electromagnetism, optics, thermodynamics, statistical physics, relativity, quantum and nuclear physics, released on Steam in August 2026, with a self-test of more than 24 000 automated checks against analytical solutions, conservation laws and reference implementations. A second product on the same codebase, the Makarov Math Suite, is at 95 modules and growing.
 
 Professionally I spent those two decades in enterprise software. ASP.NET Core services, MS SQL and Entity Framework data layers, WPF and WinForms desktop clients, and a long specialization in legacy modernization: taking Delphi and old .NET Framework systems that a business still depends on and moving them forward without breaking the business.
 
 I moved from Ukraine to Germany in 2022 and have been based in Munich since. Before that I worked in Kyiv, and earlier in Kherson and Crimea/Simferopol.
 
-I write my simulation projects under a strict rule: zero external dependencies. No engines, no physics libraries, no math frameworks. Every solver, every integrator, every renderer is written from scratch. It is slower to build and it teaches you far 
+I write my simulation projects under a strict rule: zero external dependencies. No engines, no physics libraries, no math frameworks. Every solver, every integrator, every renderer is written from scratch: the OpenGL renderer and the UI toolkit, the FFT, the rigid-body engine, the CUDA and OpenCL kernels, the Vulkan path tracer. It is slower to build, and it teaches you far more.
 
 Full professional history: [linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
 
@@ -45,15 +45,15 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 ## Selected projects
 
 ### Makarov Physics Suite
-The main project. Makarov Physics Suite is a collection of more than 120 interactive physics simulation modules written primarily in C# and C++, with extensive use of GPU computing for real-time numerical simulation and visualization.
+The main project. Makarov Physics Suite is a collection of 140 interactive physics simulation modules, written in C# on .NET with a custom OpenGL 3.3 renderer and native CUDA, OpenCL and Vulkan compute backends. Released on Steam on 26 August 2026 and updated in patches since.
 
-The suite covers a broad range of physics, including classical mechanics, rigid-body dynamics, gravitation, oscillations and waves, fluid dynamics, electromagnetism, optics, thermodynamics, statistical physics, relativity, and quantum mechanics.
+The carousel is seven rings of twenty modules: gravity, orbits and oscillations; mechanics, machines and bodies; fluids, waves and sound; electricity, magnetism and fields; quantum, heat and statistics; complexity, chaos and growth; atomic and nuclear physics. Among them: a Barnes-Hut galaxy of 30 000 bodies, a black hole ray tracer, a Vulkan hardware path tracer as an optics lab, lattice-Boltzmann and SPH fluids, a granular tumbler and an MPM avalanche, a stirred superfluid that sheds quantised vortices, a tokamak, a cloud chamber, a Bell test, and a rigid-body sandbox with destruction.
 
-The emphasis is on interactive simulation rather than predefined animations: parameters can be changed at runtime, systems can be perturbed and explored, and the resulting physical behavior is calculated numerically in real time. Different modules employ techniques such as numerical integration of differential equations, particle systems, N-body methods, SPH fluid simulation, charged-particle dynamics, ray tracing, path tracing, and GPU-accelerated computation.
+The emphasis is on interactive simulation rather than predefined animations: parameters can be changed at runtime, systems can be perturbed and explored, and the resulting physical behavior is calculated numerically in real time. The methods behind the modules include symplectic and Runge-Kutta integration, split-step spectral solvers for the Schrödinger and Gross-Pitaevskii equations, FDTD electromagnetics, lattice Boltzmann, SPH and MLS-MPM continuum methods, a rigid-body solver with joints and fracture, Barnes-Hut N-body, path tracing, and GPU acceleration through twenty CUDA kernels with OpenCL and Vulkan counterparts and a silent CPU fallback.
 
-Correctness is an important part of the project. The codebase contains more than 300 automated verification tests that compare numerical simulation results against analytical solutions, conservation laws, reference values, and other known physical results.
+Correctness is the core of the project. Every model is written twice: first as a Python reference implementation with pinned values, then as the C# model, and the self-test compares the two along with analytical solutions, conservation laws and reference data. The suite currently runs more than 24 000 such checks, with the GPU paths graded against the CPU solvers on conserved quantities. A gate of 61 static checkers runs before every release, covering everything from localization coverage to shader constants shared between GLSL and Metal.
 
-The project has its roots in an earlier physics program I started developing while at university more than 20 years ago. The current version is effectively a complete reimplementation and a compilation of ideas, experiments, algorithms, and simulation work accumulated over many years.
+The application ships in 23 languages and is built with zero external dependencies: no engine, no physics or math library, no NuGet packages. A macOS port in Swift and Metal runs in parallel, with 75 of the 140 modules ported so far.
 
 Makarov Physics Suite is published on Steam (App ID 4861360): https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 
@@ -64,17 +64,19 @@ Makarov Physics Suite is published on Steam (App ID 4861360): https://store.stea
 ---
 
 ### Makarov Math Suite
-Second product built on the same codebase as the Physics Suite. In development.
+Second product built on the same codebase as the Physics Suite: 95 modules today, on the way to a full catalogue of 140.
 
 The three suites share one source tree, one renderer, and one module framework. A product manifest decides what goes into each build: which executable, which modules, which carousel layout, which shell strings and locales. Shared code never references a product; a dedicated checker enforces that rule at build time, and the release folder of the Physics Suite was verified file for file and hash for hash before and after the split.
 
-The Math Suite is organized around three groups:
+The Math Suite is organized in rings of twenty, four of them complete and a fifth in progress:
 
-- Fractals and the complex plane: Mandelbrot and Julia sets with a live parameter map, deep zoom, fractal trees, dendritic growth, reaction-diffusion patterns.
-- Chaos and dynamical systems: the logistic map with a bifurcation diagram and cobweb plot, strange attractors, the double pendulum, predator-prey models, cellular automata, self-organized criticality.
-- Probability, networks, and form: percolation, the Galton board, random walks, the Ising model, Hopfield networks, supershapes, Riemann surfaces, hyperbolic geometry, vector fields.
+- Fractals, growth and chaos: Mandelbrot and Julia deep zoom to the limits of precision, fractal and dendritic growth, reaction-diffusion, chaos and strange attractors, the logistic map with its bifurcation diagram, percolation, the Galton board, the birth of the giant component.
+- Form, transformation and analysis: Riemann surfaces and complex mappings, 4D polytopes and the Hopf fibration, minimal surfaces, hyperbolic geometry, knots, conic sections, linear transformations, the Ising model and Hopfield memory.
+- Chance, structure and search: eigenvectors and the SVD, optimisation on a landscape, the derivative, the integral and Taylor polynomials as objects, Fourier series, Monte Carlo, Voronoi and Delaunay, graph theory and the travelling salesman, Collatz, prime spirals, L-systems.
+- Symmetry, probability and the applied: Bayes and the base-rate fallacy, the central limit theorem, confidence intervals and p-values, Newton basins, PageRank, the cusp catastrophe, map projections, curvature and parallel transport, quaternions and gimbal lock, the primes from the zeros of zeta, wallpaper groups and Penrose tilings.
+- Numbers, algorithms and games: a quantum computing series (gates, Grover's search, teleportation, Deutsch-Jozsa, the quantum Fourier transform and Shor's period finding, error-correcting codes), Euclid's algorithm and continued fractions, the sieve, RSA on small numbers, hashes and collisions, sorting races, breadth-first and depth-first search, Dijkstra, and Nim.
 
-Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets.
+Every card is built around one gesture and one number that is computed exactly and then computed by counting, and the two are held together in the self-test. Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets, Bouton's rule for Nim checked against the fully solved game tree on 7776 positions.
 
 Makarov Math Suite is published on Steam (App ID 5204230): https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
 
@@ -85,7 +87,7 @@ Makarov Math Suite is published on Steam (App ID 5204230): https://store.steampo
 ---
 
 ### Makarov Astronomy Suite
-Third product on the same codebase. In development.
+Third product on the same codebase. In development: a catalogue of 41 cards, 24 of them written.
 
 Positioned as a measurement laboratory rather than a planetarium or a sandbox: the point is to set up an experiment, change a parameter, and read the result off the screen. Three groups:
 
