@@ -217,9 +217,6 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
 - Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
-- Rutube: [rutube.ru/channel/1319322/](https://rutube.ru/channel/1319322/)
-- Vkontakte: [vk.ru/misha_bayern](https://vk.ru/misha_bayern)
-- Pikabu: [pikabu.ru/@KevlarBeaver](https://pikabu.ru/@KevlarBeaver)
 - Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
