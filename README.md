@@ -57,7 +57,7 @@ The application ships in 23 languages and is built with zero external dependenci
 
 Makarov Physics Suite is published on Steam (App ID 4861360): https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 
-[![Makarov Physics Suite](images/makarov_physics_suite.png)](
+[![Makarov Physics Suite](images/makarov_physics_suite_.png)](
     https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 )
 
@@ -80,7 +80,7 @@ Every card is built around one gesture and one number that is computed exactly a
 
 Makarov Math Suite is published on Steam (App ID 5204230): https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
 
-[![Makarov Math Suite](images/makarov_math_suite.png)](
+[![Makarov Math Suite](images/makarov_math_suite_.png)](
     https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
 )
 
@@ -217,7 +217,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
 - Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
-- Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite)
+- Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov_Math_Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
 
