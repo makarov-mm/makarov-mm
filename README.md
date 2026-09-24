@@ -241,6 +241,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 ## Zennで書いている記事
 
+- [Makarov Physics Suite — 動画32本の紹介](https://zenn.dev/makarov/articles/82a9ecd47fd73b)
 - [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://zenn.dev/makarov/articles/a63340d91e8998)
 - [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://zenn.dev/makarov/articles/8943b7055bc7d3)
 - [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://zenn.dev/makarov/articles/ef64609b82a4b5)
