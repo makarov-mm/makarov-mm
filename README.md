@@ -83,6 +83,8 @@ The application ships in 23 languages and is built with zero external dependenci
 
 Makarov Physics Suite is published on Steam (App ID 4861360): https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 
+And Microsoft Store:  https://apps.microsoft.com/detail/9P23373JLGVF
+
 [![Makarov Physics Suite](images/makarov_physics_suite_.png)](
     https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
 )
@@ -104,7 +106,9 @@ The Math Suite is organized in rings of twenty, four of them complete and a fift
 
 Every card is built around one gesture and one number that is computed exactly and then computed by counting, and the two are held together in the self-test. Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets, Bouton's rule for Nim checked against the fully solved game tree on 7776 positions.
 
-Makarov Math Suite is published on Steam (App ID 5204230): https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
+Makarov Math Suite is published on Steam (App ID 5204230):  https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
+
+And Microsoft Store:  https://apps.microsoft.com/detail/9P5K9QRHHKKP
 
 [![Makarov Math Suite](images/makarov_math_suite_.png)](
     https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
