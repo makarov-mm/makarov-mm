@@ -11,15 +11,41 @@ Open to remote positions across Germany and the EU, or hybrid in Munich.
 
 ## About me
 
-I started with physics. I have a university degree in physics, and my first serious program was a simulation suite written in Delphi 7 with OpenGL in 2004: rigid bodies, springs, fields, particle systems. That project never really ended. Twenty years later it has become the Makarov Physics Suite: 140 interactive simulation modules covering classical mechanics, fluids, electromagnetism, optics, thermodynamics, statistical physics, relativity, quantum and nuclear physics, released on Steam in August 2026, with a self-test of more than 24 000 automated checks against analytical solutions, conservation laws and reference implementations. A second product on the same codebase, the Makarov Math Suite, is at 95 modules and growing.
+I build software from the underlying algorithms to the finished product. Nearly 20 years of professional development have taken me through enterprise systems, legacy modernization, physics, graphics and infrastructure.
 
-Professionally I spent those two decades in enterprise software. ASP.NET Core services, MS SQL and Entity Framework data layers, WPF and WinForms desktop clients, and a long specialization in legacy modernization: taking Delphi and old .NET Framework systems that a business still depends on and moving them forward without breaking the business.
+Enterprise development is my professional foundation: C#, .NET/.NET Core, ASP.NET Core, REST APIs, EF Core, LINQ, WPF/MVVM and WinForms. I work with MS SQL Server, T-SQL, database design, query tuning and integrations, alongside PostgreSQL and MySQL. My stack also includes Blazor Server/WebAssembly and Razor components, unit testing, CI/CD, Docker and Azure.
 
-I moved from Ukraine to Germany in 2022 and have been based in Munich since. Before that I worked in Kyiv, and earlier in Kherson and Crimea/Simferopol.
+I modernize systems that businesses still rely on: Delphi/Object Pascal with InterBase, Firebird and ADO; .NET Framework, WinForms, WebForms and ASP.NET MVC. The work means understanding undocumented behavior, untangling business logic and data access, improving SQL performance, and moving components to modern .NET without disrupting daily operations.
 
-I write my simulation projects under a strict rule: zero external dependencies. No engines, no physics libraries, no math frameworks. Every solver, every integrator, every renderer is written from scratch: the OpenGL renderer and the UI toolkit, the FFT, the rigid-body engine, the CUDA and OpenCL kernels, the Vulkan path tracer. It is slower to build, and it teaches you far more.
+Physics and computer graphics are a long-running personal pursuit. I build 2D/3D visualizations, renderers, ray/path tracers and physics engines from first principles: rigid bodies, fluids, particles, fields and numerical solvers. I use C#, C++, Rust and Swift with OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL and shaders; GDI+/Direct2D for 2D graphics, Python for numerical verification, and Erlang/Elixir for concurrent simulation experiments. I independently developed and released Makarov Physics Suite on Steam.
 
-Full professional history: [linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
+I have built and administered my own Linux servers, configured Apache and deployed backend services. My infrastructure experience also includes Windows Server, IIS, Bash, PowerShell, Git and automated delivery. I use Node.js/JavaScript and Python for backend development, scripting and tooling, with experience in Java, Spring and Hibernate.
+
+On the frontend, I work with Angular, TypeScript, JavaScript, HTML5, CSS, Sass/SCSS, Less and jQuery, from business interfaces and dynamic forms to interactive WebGL visualizations. At Artisteer, I worked on WYSIWYG editing, graphics and HTML/CSS generation for CMS themes.
+
+My AI work includes Python/LLM prototypes at PACS to evaluate integration into existing business systems, and a convolutional neural network implemented from scratch in Rust. I also use AI tools in development, with code review, tests and numerical checks guiding what I ship.
+
+Based in Munich; open to local or remote roles that value technical ownership, curiosity and depth.
+[linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
+
+---
+
+Ich entwickle Software vom Algorithmus bis zum fertigen Produkt. Meine Erfahrung aus fast 20 Jahren Softwareentwicklung umfasst Enterprise-Systeme, Legacy-Modernisierung, Physik, Computergrafik und Infrastruktur.
+
+Mein beruflicher Schwerpunkt ist die Enterprise-Entwicklung: C#, .NET/.NET Core, ASP.NET Core, REST-APIs, EF Core, LINQ, WPF/MVVM und WinForms. Dazu gehören MS SQL Server, T-SQL, Datenbankdesign, Abfrageoptimierung und Schnittstellen sowie PostgreSQL und MySQL. Mein Werkzeugkasten umfasst auch Blazor Server/WebAssembly, Razor-Komponenten, Unit-Tests, CI/CD, Docker und Azure.
+
+Ich modernisiere gewachsene Systeme: Delphi/Object Pascal mit InterBase, Firebird und ADO sowie .NET Framework, WinForms, WebForms und ASP.NET MVC. Dabei erschließe ich undokumentiertes Verhalten, entflechte Geschäftslogik und Datenzugriffe, optimiere SQL und überführe Komponenten schrittweise in modernes .NET, während der laufende Betrieb erhalten bleibt.
+
+Physik und Computergrafik begleiten mich seit vielen Jahren. Ich entwickle eigene 2D-/3D-Visualisierungen, Renderer, Ray-/Pathtracer und Physik-Engines: Starrkörper, Fluide, Partikel, Felder und numerische Solver. Dafür nutze ich C#, C++, Rust und Swift mit OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL und Shadern; GDI+/Direct2D für 2D-Grafik, Python zur numerischen Verifikation und Erlang/Elixir für nebenläufige Simulationsexperimente. Die Makarov Physics Suite habe ich eigenständig entwickelt und auf Steam veröffentlicht.
+
+Ich habe eigene Linux-Server aufgebaut und administriert, Apache konfiguriert und Backend-Dienste bereitgestellt. Hinzu kommen Windows Server, IIS, Bash, PowerShell, Git und automatisierte Deployment-Prozesse. Node.js/JavaScript und Python nutze ich für Backends, Skripte und Werkzeuge; Erfahrung habe ich auch mit Java, Spring und Hibernate.
+
+Im Frontend arbeite ich mit Angular, TypeScript, JavaScript, HTML5, CSS, Sass/SCSS, Less und jQuery: von Geschäftsanwendungen bis zu interaktiven WebGL-Visualisierungen. Bei Artisteer arbeitete ich an WYSIWYG-Funktionen, Grafik und der HTML/CSS-Ausgabe für CMS-Themes.
+
+Meine KI-Arbeit umfasst Python-/LLM-Prototypen zur Prüfung einer Integration in bestehende Systeme sowie ein selbst implementiertes Convolutional Neural Network in Rust. Ich nutze KI-Werkzeuge auch in der Entwicklung und prüfe die Ergebnisse mit Code-Reviews, Tests und numerischen Vergleichen.
+
+Ich lebe in München und suche Aufgaben vor Ort oder remote, mit technischer Verantwortung, Gestaltungsspielraum und fachlicher Tiefe.
+[linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
 
 ---
 
