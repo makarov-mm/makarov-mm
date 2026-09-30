@@ -256,6 +256,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 ## Qiitaで書いている記事
 
 - [Makarov Physics Suite — 動画32本の紹介](https://qiita.com/makarov-mm/items/4ee20a3bfcfbd3942ab4)
+- [Makarov Astronomy Suite：私の天文学プログラム集](https://zenn.dev/makarov/articles/34959663cbb5a9)
 - [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://qiita.com/makarov-mm/items/71552a35310f89f7a603)
 - [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://qiita.com/makarov-mm/items/eaec22e0b40d6bce8492)
 - [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://qiita.com/makarov-mm/items/342e87a4ff3dcb25f64d)
@@ -273,6 +274,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 ## Zennで書いている記事
 
 - [Makarov Physics Suite — 動画32本の紹介](https://zenn.dev/makarov/articles/82a9ecd47fd73b)
+- [Makarov Astronomy Suite：私の天文学プログラム集](https://qiita.com/makarov-mm/items/9c106cdc365aeb1d3810)
 - [ブラックホールはどう描かれる？光線追跡で作る Schwarzschild Black Hole](https://zenn.dev/makarov/articles/a63340d91e8998)
 - [オーロラはどう生まれる？地球磁場中の荷電粒子をシミュレーションする Aurora モジュール](https://zenn.dev/makarov/articles/8943b7055bc7d3)
 - [振り子は本当に単純なのか？6種類の振り子をシミュレーションしてみた](https://zenn.dev/makarov/articles/ef64609b82a4b5)
