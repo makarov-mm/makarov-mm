@@ -247,6 +247,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
 - Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
+- Makarov Physics: [makarovphysics.com](https://makarovphysics.com/)
 - Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov_Math_Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
