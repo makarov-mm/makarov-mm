@@ -156,7 +156,7 @@ Mass-spring cloth solver implemented twice, once in C# with OpenGL and once in S
 
 https://github.com/makarov-mm/cloth-simulation
 
-[![Cloth Simulation](images/cloth.jpg)](
+[![Cloth Simulation](images/cloth1.jpg)](
     https://github.com/makarov-mm/cloth-simulation
 )
 
