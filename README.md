@@ -269,6 +269,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [粉体ドラム（Granular tumbler）](https://qiita.com/makarov-mm/items/5315779b0999af0ba84c)
 - [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://qiita.com/makarov-mm/items/32a7b309444012f8f806)
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://qiita.com/makarov-mm/items/786f19c0e85a79b718f3)
+- [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://qiita.com/makarov-mm/items/8161a9ef5a0c32f8a380)
 
 ---
 
@@ -287,6 +288,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [粉体ドラム（Granular tumbler）](https://zenn.dev/makarov/articles/432b451dab1f63)
 - [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://zenn.dev/makarov/articles/69a23f303921ef)
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://zenn.dev/makarov/articles/c7cd07aba71a5f)
+- [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://zenn.dev/makarov/articles/c6f00df4be8e15)
 
 ---
 
