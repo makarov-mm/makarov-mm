@@ -249,6 +249,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
 - Makarov Physics: [makarovphysics.com](https://makarovphysics.com/)
 - Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov_Math_Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
+- Microsoft Store: [Makarov_Physics_Suite](https://apps.microsoft.com/detail/9P23373JLGVF), [Makarov_Math_Suite](https://apps.microsoft.com/detail/9P5K9QRHHKKP)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
 
