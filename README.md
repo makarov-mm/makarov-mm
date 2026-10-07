@@ -271,6 +271,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://qiita.com/makarov-mm/items/32a7b309444012f8f806)
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://qiita.com/makarov-mm/items/786f19c0e85a79b718f3)
 - [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://qiita.com/makarov-mm/items/8161a9ef5a0c32f8a380)
+- [Makarov Math Suite のモジュール紹介](https://qiita.com/makarov-mm/items/98163606db4cc94d7b5d)
 
 ---
 
@@ -290,6 +291,33 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [目で見る数学 ― 物理シミュレータから分かれたプロジェクト](https://zenn.dev/makarov/articles/69a23f303921ef)
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://zenn.dev/makarov/articles/c7cd07aba71a5f)
 - [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://zenn.dev/makarov/articles/c6f00df4be8e15)
+- [Makarov Math Suite のモジュール紹介](https://zenn.dev/makarov/articles/767883838deae6)
+
+---
+
+## DTF
+
+- [Комплекс Физических Программ](https://dtf.ru/indie/5259526-kompleks-fizicheskogo-modelirovaniya)
+- [Комплекс Физически Программ для MacOS](https://dtf.ru/indie/5259594-port-makarovphysics-dlya-macos)
+- [Зарелизил свой Комплекс Физических Программ на Steam](https://dtf.ru/indie/5262873-kompleks-fizicheskikh-programm-makarov-physics-suite-na-steam)
+- [Вычисление разрушений в реальном времени](https://dtf.ru/id3528667/5264950-vychislenie-razrusheniy-v-realnom-vremeni)
+- [Симуляция поведения ткани в реальном времени](https://dtf.ru/gamedev/5265877-simuljacija-povedenija-tkani-v-realnom-vremeni)
+- [Ветряк в аэродинамической трубе на решётке Больцмана - Makarov Physics Suite](https://dtf.ru/id3528667/5267539-vetryak-v-aerodinamicheskoy-trube-na-reshetke-boltzmanna)
+- [Квадрокоптер и "Хищник и жертва"](https://dtf.ru/id3528667/5268222-kvadrokopter-i-fizicheskie-simulyatsii-hishchnika-i-zertvy)
+- [Гранулярный барабан](https://dtf.ru/id3528667/5268882-granuljarnyj-baraban-i-ego-rezhimy-rabotyi)
+- [Математика, на которую можно смотреть: ответвление моего физического симулятора](https://dtf.ru/id3528667/5273702-makarov-math-suite-interaktivnye-moduli)
+- [Эксперимент, который сделал атом пустым](https://dtf.ru/id3528667/5276548-eksperiment-rezervorda-kotoryi-izmenil-predstavlenie-ob-atome)
+- [Makarov Math Suite / Комплекс Математических Программ / Ранняя альфа-версия](https://dtf.ru/indie/5278575-kompleks-matematicheskikh-programm-makarov-math-suite)
+- [Портирование программы с Windows на MacOS](https://dtf.ru/id3528667/5279557-portirovanie-programmy-s-windows-na-macos)
+- [Мои новые модули и ещё неизданных комплексах программ по математике и астрономии](https://dtf.ru/id3528667/5285653-moduli-po-matematike-i-astronomii-ot-makarov)
+- [Мои разработки для комплекса математических программ (Makarov Math Suite)](https://dtf.ru/indie/5292139-obrazovatelnye-programmy-po-matematike-ot-makarov-math-suite)
+- [Makarov Physics Suite](https://dtf.ru/indie/5317046-kompleks-programm-po-fizike-makarov)
+- [Makarov Math Suite](https://dtf.ru/indie/5324727-makarov-math-suite-interaktivnye-matematicheskie-eksperimenty)
+- [Makarov Astronomy Suite: комплекс моих программ по астрономии](https://dtf.ru/indie/5328274-kompleks-programm-po-astronomii-makarov-astronomy-suite)
+- [Makarov Physics Suite - скидка 50% в ближайшую неделю](https://dtf.ru/indie/5333888-makarov-physics-suite-skidka-50-v-blizhaishuyu-nedelyu)
+- [Makarov Physics Suite update](https://dtf.ru/indie/5335664-obnovlenie-makarov-physics-suite-zvezdoobraznyj-dvigatel)
+- [Makarov Physics Suite: Роборука](https://dtf.ru/indie/5336976-roboruka-makarov-physics-suite-upravlenie-manipulyatorom)
+- [Несколько модулей из Makarov Math Suite](https://dtf.ru/indie/5340890-moduli-makarov-math-suite)
 
 ---
 
