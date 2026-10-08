@@ -318,6 +318,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [Makarov Physics Suite update](https://dtf.ru/indie/5335664-obnovlenie-makarov-physics-suite-zvezdoobraznyj-dvigatel)
 - [Makarov Physics Suite: Роборука](https://dtf.ru/indie/5336976-roboruka-makarov-physics-suite-upravlenie-manipulyatorom)
 - [Несколько модулей из Makarov Math Suite](https://dtf.ru/indie/5340890-moduli-makarov-math-suite)
+- [Makarov Physics Suite: update](https://dtf.ru/indie/5342456-obnovlenie-makarov-physics-suite-balansirovka-i-upravlenie-mehanizmami)
 
 ---
 
