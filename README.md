@@ -17,7 +17,7 @@ Enterprise development is my professional foundation: C#, .NET/.NET Core, ASP.NE
 
 I modernize systems that businesses still rely on: Delphi/Object Pascal with InterBase, Firebird and ADO; .NET Framework, WinForms, WebForms and ASP.NET MVC. The work means understanding undocumented behavior, untangling business logic and data access, improving SQL performance, and moving components to modern .NET without disrupting daily operations.
 
-Physics and computer graphics are a long-running personal pursuit. I build 2D/3D visualizations, renderers, ray/path tracers and physics engines from first principles: rigid bodies, fluids, particles, fields and numerical solvers. I use C#, C++, Rust and Swift with OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL and shaders; GDI+/Direct2D for 2D graphics, Python for numerical verification, and Erlang/Elixir for concurrent simulation experiments. I independently developed and released Makarov Physics Suite on Steam.
+Physics and computer graphics are a long-running personal pursuit. I build 2D/3D visualizations, renderers, ray/path tracers and physics engines from first principles: rigid bodies, fluids, particles, fields and numerical solvers. I use C#, C++, Rust and Swift with OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL and shaders; GDI+/Direct2D for 2D graphics, Python for numerical verification, and Erlang/Elixir for concurrent simulation experiments. I independently develop Makarov Suites: Physics and Math are available on Steam and Microsoft Store, Astronomy is available on Microsoft Store, and Earth and Engineering are in development.
 
 I have built and administered my own Linux servers, configured Apache and deployed backend services. My infrastructure experience also includes Windows Server, IIS, Bash, PowerShell, Git and automated delivery. I use Node.js/JavaScript and Python for backend development, scripting and tooling, with experience in Java, Spring and Hibernate.
 
@@ -36,7 +36,7 @@ Mein beruflicher Schwerpunkt ist die Enterprise-Entwicklung: C#, .NET/.NET Core,
 
 Ich modernisiere gewachsene Systeme: Delphi/Object Pascal mit InterBase, Firebird und ADO sowie .NET Framework, WinForms, WebForms und ASP.NET MVC. Dabei erschließe ich undokumentiertes Verhalten, entflechte Geschäftslogik und Datenzugriffe, optimiere SQL und überführe Komponenten schrittweise in modernes .NET, während der laufende Betrieb erhalten bleibt.
 
-Physik und Computergrafik begleiten mich seit vielen Jahren. Ich entwickle eigene 2D-/3D-Visualisierungen, Renderer, Ray-/Pathtracer und Physik-Engines: Starrkörper, Fluide, Partikel, Felder und numerische Solver. Dafür nutze ich C#, C++, Rust und Swift mit OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL und Shadern; GDI+/Direct2D für 2D-Grafik, Python zur numerischen Verifikation und Erlang/Elixir für nebenläufige Simulationsexperimente. Die Makarov Physics Suite habe ich eigenständig entwickelt und auf Steam veröffentlicht.
+Physik und Computergrafik begleiten mich seit vielen Jahren. Ich entwickle eigene 2D-/3D-Visualisierungen, Renderer, Ray-/Pathtracer und Physik-Engines: Starrkörper, Fluide, Partikel, Felder und numerische Solver. Dafür nutze ich C#, C++, Rust und Swift mit OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL und Shadern; GDI+/Direct2D für 2D-Grafik, Python zur numerischen Verifikation und Erlang/Elixir für nebenläufige Simulationsexperimente. Ich entwickle die Makarov Suites eigenständig: Physics und Math sind auf Steam und im Microsoft Store erhältlich, Astronomy ist im Microsoft Store verfügbar. Earth und Engineering befinden sich in Entwicklung.
 
 Ich habe eigene Linux-Server aufgebaut und administriert, Apache konfiguriert und Backend-Dienste bereitgestellt. Hinzu kommen Windows Server, IIS, Bash, PowerShell, Git und automatisierte Deployment-Prozesse. Node.js/JavaScript und Python nutze ich für Backends, Skripte und Werkzeuge; Erfahrung habe ich auch mit Java, Spring und Hibernate.
 
@@ -70,62 +70,100 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 
 ## Selected projects
 
+I independently develop **Makarov Suites**, a family of interactive science applications built on a shared simulation and graphics codebase. The experiments run locally: change a parameter, work with the scene, and compare the result with measurements and plots.
+
+[Website, screenshots and downloads](https://makarovphysics.com/)
+
+| Product | Current catalogue | Availability |
+|---|---|---|
+| **Makarov Physics Suite** | 180 interactive modules · 9 rings of 20 | [Steam](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P23373JLGVF) |
+| **Makarov Math Suite** | 160 interactive modules · 8 rings of 20 | [Steam](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P5K9QRHHKKP) |
+| **Makarov Astronomy Suite** | 120 interactive modules · 6 rings of 20 | [Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR); Steam release in preparation |
+| **Makarov Earth Suite** | 80 entries · 23 working / 57 planned | In development |
+| **Makarov Engineering Suite** | 160 entries · 53 working / 107 planned | In development |
+
+Earth and Engineering are development projects. Their working counts include modules shared with the other Suites; the remaining catalogue entries are planned modules, not completed experiments.
+
+The Windows applications use C# and .NET, an in-house module host and UI, a custom OpenGL renderer, and native CUDA, OpenCL or Vulkan computation in supported modules. The numerical models and rendering are developed without an off-the-shelf game engine. Each product's manifest selects its modules, carousel and resources; shared experiments use the same implementation across products.
+
+Verification combines independent Python reference calculations, analytical solutions, conservation laws and numerical regression tests. Release checks cover product boundaries, localization, shaders, resources and packaging. Models document their assumptions and limits. A native macOS codebase in Swift and Metal is developed alongside Windows, with module coverage and visual parity tracked separately.
+
+The interface is multilingual. Windows support includes Simplified Chinese, Japanese and Korean, bundled fonts and IME input. Translation depth varies by module; catalogue translations and complete experiment translations are tracked separately.
+
 ### Makarov Physics Suite
-The main project. Makarov Physics Suite is a collection of 140 interactive physics simulation modules, written in C# on .NET with a custom OpenGL 3.3 renderer and native CUDA, OpenCL and Vulkan compute backends. Released on Steam on 26 August 2026 and updated in patches since.
 
-The carousel is seven rings of twenty modules: gravity, orbits and oscillations; mechanics, machines and bodies; fluids, waves and sound; electricity, magnetism and fields; quantum, heat and statistics; complexity, chaos and growth; atomic and nuclear physics. Among them: a Barnes-Hut galaxy of 30 000 bodies, a black hole ray tracer, a Vulkan hardware path tracer as an optics lab, lattice-Boltzmann and SPH fluids, a granular tumbler and an MPM avalanche, a stirred superfluid that sheds quantised vortices, a tokamak, a cloud chamber, a Bell test, and a rigid-body sandbox with destruction.
+**180 interactive modules** covering mechanics, oscillations, fluids, waves, optics, electromagnetism, thermodynamics, quantum physics and nonlinear systems. Available on Steam and Microsoft Store.
 
-The emphasis is on interactive simulation rather than predefined animations: parameters can be changed at runtime, systems can be perturbed and explored, and the resulting physical behavior is calculated numerically in real time. The methods behind the modules include symplectic and Runge-Kutta integration, split-step spectral solvers for the Schrödinger and Gross-Pitaevskii equations, FDTD electromagnetics, lattice Boltzmann, SPH and MLS-MPM continuum methods, a rigid-body solver with joints and fracture, Barnes-Hut N-body, path tracing, and GPU acceleration through twenty CUDA kernels with OpenCL and Vulkan counterparts and a silent CPU fallback.
+The collection ranges from individual experiments to machines you can operate: guide a robot arm, drive a forklift, balance a platform, inspect an engine, explore airflow around obstacles or follow particles in electromagnetic fields. Detailed apparatus, cutaways, materials, lighting and camera controls make the mechanism visible while measurements show what the model is doing.
 
-Correctness is the core of the project. Every model is written twice: first as a Python reference implementation with pinned values, then as the C# model, and the self-test compares the two along with analytical solutions, conservation laws and reference data. The suite currently runs more than 24 000 such checks, with the GPU paths graded against the CPU solvers on conserved quantities. A gate of 61 static checkers runs before every release, covering everything from localization coverage to shader constants shared between GLSL and Metal.
+The numerical work includes rigid-body dynamics with joints and contacts, lattice-Boltzmann and SPH fluids, granular and continuum models, Barnes–Hut gravitation, FDTD electromagnetics, spectral quantum solvers and ray tracing. Selected fluid and particle modules support GPU computation; the available backends depend on the module and hardware.
 
-The application ships in 23 languages and is built with zero external dependencies: no engine, no physics or math library, no NuGet packages. A macOS port in Swift and Metal runs in parallel, with 75 of the 140 modules ported so far.
+[Steam](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P23373JLGVF) · [Website](https://makarovphysics.com/)
 
-Makarov Physics Suite is published on Steam (App ID 4861360): https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
-
-And Microsoft Store:  https://apps.microsoft.com/detail/9P23373JLGVF
-
-[![Makarov Physics Suite](images/makarov_physics_suite_.png)](
-    https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/
-)
+[![Makarov Physics Suite](images/makarov_physics_suite_.png)](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/)
 
 ---
 
 ### Makarov Math Suite
-Second product built on the same codebase as the Physics Suite: 95 modules today, on the way to a full catalogue of 140.
 
-The three suites share one source tree, one renderer, and one module framework. A product manifest decides what goes into each build: which executable, which modules, which carousel layout, which shell strings and locales. Shared code never references a product; a dedicated checker enforces that rule at build time, and the release folder of the Physics Suite was verified file for file and hash for hash before and after the split.
+**160 interactive modules in eight rings of twenty**, built on the same platform. Available on Steam and Microsoft Store.
 
-The Math Suite is organized in rings of twenty, four of them complete and a fifth in progress:
+The aim is to make mathematical structures something you can manipulate and measure: fold a sheet, change a transformation, explore a surface, follow an algorithm or watch a probability distribution form.
 
-- Fractals, growth and chaos: Mandelbrot and Julia deep zoom to the limits of precision, fractal and dendritic growth, reaction-diffusion, chaos and strange attractors, the logistic map with its bifurcation diagram, percolation, the Galton board, the birth of the giant component.
-- Form, transformation and analysis: Riemann surfaces and complex mappings, 4D polytopes and the Hopf fibration, minimal surfaces, hyperbolic geometry, knots, conic sections, linear transformations, the Ising model and Hopfield memory.
-- Chance, structure and search: eigenvectors and the SVD, optimisation on a landscape, the derivative, the integral and Taylor polynomials as objects, Fourier series, Monte Carlo, Voronoi and Delaunay, graph theory and the travelling salesman, Collatz, prime spirals, L-systems.
-- Symmetry, probability and the applied: Bayes and the base-rate fallacy, the central limit theorem, confidence intervals and p-values, Newton basins, PageRank, the cusp catastrophe, map projections, curvature and parallel transport, quaternions and gimbal lock, the primes from the zeros of zeta, wallpaper groups and Penrose tilings.
-- Numbers, algorithms and games: a quantum computing series (gates, Grover's search, teleportation, Deutsch-Jozsa, the quantum Fourier transform and Shor's period finding, error-correcting codes), Euclid's algorithm and continued fractions, the sieve, RSA on small numbers, hashes and collisions, sorting races, breadth-first and depth-first search, Dijkstra, and Nim.
+- **Geometry and topology:** origami, dissections, curves of constant width, polyhedron unfolding, Möbius strips, knots, non-orientable surfaces, 4D sections and the Hopf fibration.
+- **Fractals and dynamics:** Mandelbrot and Julia sets, chaos, attractors, the logistic map, cellular automata and growth.
+- **Analysis and linear algebra:** derivatives, integrals, Taylor approximations, Fourier analysis, eigenvectors, singular values, Gaussian elimination and least squares.
+- **Probability and statistics:** Bayes, Monte Carlo, confidence intervals, the central limit theorem, Simpson's paradox, Benford's law and Buffon's needle.
+- **Algorithms and discrete mathematics:** sorting and graph search, Dijkstra, mazes, string matching, compression, logic gates, finite automata and game trees.
+- **Models and computation:** networks, queues, matching, game theory, Kalman filtering, clustering, cryptography and quantum-computing demonstrations.
 
-Every card is built around one gesture and one number that is computed exactly and then computed by counting, and the two are held together in the self-test. Modules that make sense in both products are compiled into both from a single implementation. The verification approach is the same as in the Physics Suite: every model has a Python reference implementation written first, and the C# tests are pinned to numbers that are bit-exact between the two. For the math modules that means exact anchors, not tolerances: the period-doubling points of the logistic map at 3 and 1+√6, the Feigenbaum constant from the superstable ladder, Kesten's self-duality of bond percolation on the square lattice, the Fatou-Julia dichotomy for Julia sets, Bouton's rule for Nim checked against the fully solved game tree on 7776 positions.
+The diagrams and 3D scenes are computed from the parameters. Exact identities and combinatorial results are checked alongside numerical approximations, with tolerances where the method requires them.
 
-Makarov Math Suite is published on Steam (App ID 5204230):  https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
+[Steam](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P5K9QRHHKKP) · [Website](https://makarovphysics.com/)
 
-And Microsoft Store:  https://apps.microsoft.com/detail/9P5K9QRHHKKP
-
-[![Makarov Math Suite](images/makarov_math_suite_.png)](
-    https://store.steampowered.com/app/5204230/Makarov_Math_Suite/
-)
+[![Makarov Math Suite](images/makarov_math_suite_.png)](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
 
 ---
 
 ### Makarov Astronomy Suite
-Third product on the same codebase. In development: a catalogue of 41 cards, 24 of them written.
 
-Positioned as a measurement laboratory rather than a planetarium or a sandbox: the point is to set up an experiment, change a parameter, and read the result off the screen. Three groups:
+**120 interactive modules in six rings of twenty.** Available on Microsoft Store; the Steam release is in preparation.
 
-- Gravity and celestial mechanics: Kepler orbits, N-body systems, planetary motion and retrograde loops, galaxy dynamics, gravitational waves.
-- Light, spectra, and instruments: blackbody radiation, Rømer's measurement of the speed of light, the hydrogen spectrum, prisms and ray optics, the optics bench.
-- Extreme objects and plasma: black holes, aurora, tokamak plasma, radioactive decay, Cherenkov radiation, muon lifetime.
+An astronomy laboratory for exploring planets, stars, galaxies, cosmology and spacecraft. Change the conditions, move around a 3D scene, and connect what you see with the quantities being measured.
 
-The astronomy-specific engineering problems are floating-point precision at astronomical scales, symplectic integrators that keep orbits stable over long simulated times, and verification of ephemerides against JPL Horizons. The hardware ray tracer written for the optics modules is reused for black hole ray tracing and gravitational lensing.
+- **Planets and the sky:** seasons, eclipses, lunar phases, Saturn's rings, planetary interiors, atmospheres and exoplanet observations.
+- **Orbits and gravity:** N-body systems, resonances, Lagrange points, orbital transfers, rendezvous, solar sails and star clusters.
+- **Stars and observation:** stellar evolution, solar plasma, supernova remnants, white dwarfs, neutron stars, spectra, telescopes, interferometry and adaptive optics.
+- **Galaxies and cosmology:** galaxy encounters, rotation curves, gravitational lensing, black holes, the cosmic microwave background, cosmic horizons and expansion models.
+- **Spaceflight and hardware:** lunar and Mars rovers, a lunar lander, spacecraft docking, a station robot arm, reaction wheels, ion propulsion, heat shields and deployable telescopes.
+
+Each module is a focused educational model with its own assumptions, scales and measurements. The hardware scenes combine orbital or mechanical calculations with controls, cutaways and views of the working parts.
+
+[Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR) · [Website](https://makarovphysics.com/)
+
+---
+
+### Makarov Earth Suite — in development
+
+Earth science through interactive models: geology and tectonics, water and landscapes, atmosphere, climate and ecosystems.
+
+The development catalogue has **80 entries in four rings**, with **23 working modules**: three new Earth experiments and twenty shared modules. The remaining 57 are planned.
+
+The first dedicated experiments explore plate boundaries, rainfall and runoff, and the sea breeze. Shared modules bring in subjects such as planetary interiors and predator–prey dynamics. The roadmap extends to faults and seismic waves, volcanoes, erosion, rivers, glaciers, groundwater, ocean circulation and climate processes.
+
+The goal is to let users change a cause, watch the system respond and compare the result with measurements. The first models have deliberately limited scope, documented alongside the experiments.
+
+---
+
+### Makarov Engineering Suite — in development
+
+An interactive workshop for mechanisms, machines and control. The development catalogue has **160 entries in eight rings**, with **53 working modules**: 33 dedicated Engineering modules and twenty shared modules. The remaining 107 are planned.
+
+The implemented mechanisms include gear trains and transmissions, belt and chain drives, screw actuators, clutches and brakes, universal and constant-velocity joints, cams, ratchets, a clock escapement, pantographs, straight-line linkages, a toggle press and a scissor lift. Shared scenes add robots, vehicles, engines and space hardware.
+
+The mechanisms use the common 3D physics engine: bodies, constraints, forces, torques, drives and loads. Measurements expose motion, mechanical advantage, energy and losses where the model supports them. Workshop benches, a precision-instrument room and an outdoor test yard give the new mechanisms a setting suited to their purpose.
+
+The roadmap goes beyond individual transmissions: cable robots, flying machines, vehicle systems, manufacturing equipment, energy systems and historical instruments such as the astrolabe and Antikythera mechanism. A longer-term goal is a sandbox for connecting mechanisms into larger working assemblies; that assembly editor is still planned.
 
 ---
 
@@ -247,9 +285,9 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Qiita: [qiita.com/makarov-mm](https://qiita.com/makarov-mm)
 - Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
-- Makarov Physics: [makarovphysics.com](https://makarovphysics.com/)
-- Steam: [Makarov_Physics_Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov_Math_Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
-- Microsoft Store: [Makarov_Physics_Suite](https://apps.microsoft.com/detail/9P23373JLGVF), [Makarov_Math_Suite](https://apps.microsoft.com/detail/9P5K9QRHHKKP)
+- Makarov Suites: [makarovphysics.com](https://makarovphysics.com/)
+- Steam: [Makarov Physics Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov Math Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
+- Microsoft Store: [Makarov Physics Suite](https://apps.microsoft.com/detail/9P23373JLGVF), [Makarov Math Suite](https://apps.microsoft.com/detail/9P5K9QRHHKKP), [Makarov Astronomy Suite](https://apps.microsoft.com/detail/9MWFBPB7TXHR)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
 
