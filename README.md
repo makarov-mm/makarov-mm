@@ -332,6 +332,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://zenn.dev/makarov/articles/c7cd07aba71a5f)
 - [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://zenn.dev/makarov/articles/c6f00df4be8e15)
 - [Makarov Math Suite のモジュール紹介](https://zenn.dev/makarov/articles/767883838deae6)
+- [CNC加工から産業用CTまで、16の工学現象を3Dシミュレーションで見る](https://zenn.dev/makarov/articles/0cb5c9b576b1a9)
 
 ---
 
