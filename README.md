@@ -311,6 +311,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [数学は「見る」ことができるのか？自作の数学シミュレーション集 Makarov Math Suite を紹介します](https://qiita.com/makarov-mm/items/786f19c0e85a79b718f3)
 - [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://qiita.com/makarov-mm/items/8161a9ef5a0c32f8a380)
 - [Makarov Math Suite のモジュール紹介](https://qiita.com/makarov-mm/items/98163606db4cc94d7b5d)
+- [CNC加工から産業用CTまで、16の工学現象を3Dシミュレーションで見る](https://qiita.com/makarov-mm/items/1dd8ecae65be2fe4a0fc)
 
 ---
 
