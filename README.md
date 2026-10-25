@@ -280,6 +280,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Vimeo: [vimeo.com/makarovphysics](https://vimeo.com/makarovphysics)
 - Instagram: [instagram.com/m.m.makarov](https://www.instagram.com/m.m.makarov)
 - Tech Instagram: [instagram.com/makarov.dev](https://www.instagram.com/makarov.dev)
+- Tiktok: [tiktok.com/@mykhailo.makarov](https://www.tiktok.com/@mykhailo.makarov)
 - Gaming Instagram: [instagram.com/makarov.gamer](https://www.instagram.com/makarov.gamer)
 - Reddit: [reddit.com/user/mischa_bayern/](https://www.reddit.com/user/mischa_bayern/)
 - Buy me a coffee: [buymeacoffee.com/makarovmm](https://buymeacoffee.com/makarovmm)
