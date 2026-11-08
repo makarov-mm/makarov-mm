@@ -337,31 +337,4 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 ---
 
-## DTF
-
-- [Комплекс Физических Программ](https://dtf.ru/indie/5259526-kompleks-fizicheskogo-modelirovaniya)
-- [Комплекс Физически Программ для MacOS](https://dtf.ru/indie/5259594-port-makarovphysics-dlya-macos)
-- [Зарелизил свой Комплекс Физических Программ на Steam](https://dtf.ru/indie/5262873-kompleks-fizicheskikh-programm-makarov-physics-suite-na-steam)
-- [Вычисление разрушений в реальном времени](https://dtf.ru/id3528667/5264950-vychislenie-razrusheniy-v-realnom-vremeni)
-- [Симуляция поведения ткани в реальном времени](https://dtf.ru/gamedev/5265877-simuljacija-povedenija-tkani-v-realnom-vremeni)
-- [Ветряк в аэродинамической трубе на решётке Больцмана - Makarov Physics Suite](https://dtf.ru/id3528667/5267539-vetryak-v-aerodinamicheskoy-trube-na-reshetke-boltzmanna)
-- [Квадрокоптер и "Хищник и жертва"](https://dtf.ru/id3528667/5268222-kvadrokopter-i-fizicheskie-simulyatsii-hishchnika-i-zertvy)
-- [Гранулярный барабан](https://dtf.ru/id3528667/5268882-granuljarnyj-baraban-i-ego-rezhimy-rabotyi)
-- [Математика, на которую можно смотреть: ответвление моего физического симулятора](https://dtf.ru/id3528667/5273702-makarov-math-suite-interaktivnye-moduli)
-- [Эксперимент, который сделал атом пустым](https://dtf.ru/id3528667/5276548-eksperiment-rezervorda-kotoryi-izmenil-predstavlenie-ob-atome)
-- [Makarov Math Suite / Комплекс Математических Программ / Ранняя альфа-версия](https://dtf.ru/indie/5278575-kompleks-matematicheskikh-programm-makarov-math-suite)
-- [Портирование программы с Windows на MacOS](https://dtf.ru/id3528667/5279557-portirovanie-programmy-s-windows-na-macos)
-- [Мои новые модули и ещё неизданных комплексах программ по математике и астрономии](https://dtf.ru/id3528667/5285653-moduli-po-matematike-i-astronomii-ot-makarov)
-- [Мои разработки для комплекса математических программ (Makarov Math Suite)](https://dtf.ru/indie/5292139-obrazovatelnye-programmy-po-matematike-ot-makarov-math-suite)
-- [Makarov Physics Suite](https://dtf.ru/indie/5317046-kompleks-programm-po-fizike-makarov)
-- [Makarov Math Suite](https://dtf.ru/indie/5324727-makarov-math-suite-interaktivnye-matematicheskie-eksperimenty)
-- [Makarov Astronomy Suite: комплекс моих программ по астрономии](https://dtf.ru/indie/5328274-kompleks-programm-po-astronomii-makarov-astronomy-suite)
-- [Makarov Physics Suite - скидка 50% в ближайшую неделю](https://dtf.ru/indie/5333888-makarov-physics-suite-skidka-50-v-blizhaishuyu-nedelyu)
-- [Makarov Physics Suite update](https://dtf.ru/indie/5335664-obnovlenie-makarov-physics-suite-zvezdoobraznyj-dvigatel)
-- [Makarov Physics Suite: Роборука](https://dtf.ru/indie/5336976-roboruka-makarov-physics-suite-upravlenie-manipulyatorom)
-- [Несколько модулей из Makarov Math Suite](https://dtf.ru/indie/5340890-moduli-makarov-math-suite)
-- [Makarov Physics Suite: update](https://dtf.ru/indie/5342456-obnovlenie-makarov-physics-suite-balansirovka-i-upravlenie-mehanizmami)
-
----
-
 <sub>Keywords: Mykhailo Makarov, Michael Makarov, Makarov, senior .NET developer Munich, C# developer Germany, ASP.NET Core engineer, WPF developer, Delphi modernization, legacy migration specialist, Vulkan developer, DirectX 12, Metal, CUDA, GPU compute, physics simulation, computational physics, fluid dynamics simulation, real-time rendering, graphics programmer, remote .NET developer Europe.</sub>
