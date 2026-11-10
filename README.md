@@ -342,6 +342,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - [Makarov Physics Suite ― 新しくなった25の物理シミュレーション](https://zenn.dev/makarov/articles/c6f00df4be8e15)
 - [Makarov Math Suite のモジュール紹介](https://zenn.dev/makarov/articles/767883838deae6)
 - [CNC加工から産業用CTまで、16の工学現象を3Dシミュレーションで見る](https://zenn.dev/makarov/articles/0cb5c9b576b1a9)
+- [Delphiで作った物理実験室が、6つのMakarov Suitesになるまで](https://zenn.dev/makarov/articles/2e456c2fa7d76c)
 
 ---
 
