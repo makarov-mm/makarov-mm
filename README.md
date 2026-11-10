@@ -9,6 +9,25 @@ Open to remote positions across Germany and the EU, or hybrid in Munich.
 
 ---
 
+## Makarov Suites
+
+In 2004 I wrote a physics lab in Delphi 7 and OpenGL for classroom demonstrations. Today I develop six Windows applications on the same C# and OpenGL platform. A black hole and a game of eight-ball share a renderer, but each has its own model of what happens next. [Original Delphi source](https://github.com/makarov-mm/MakarovPhysics) · [Watch all six Suites in 35 seconds](https://vimeo.com/1245614855)
+
+| Suite | Catalogue | Watch a demo | Availability |
+|---|---:|---|---|
+| [Physics](#makarov-physics-suite) | 200 modules | [Tokamak and pendulum wave](https://vimeo.com/1245615652) | [Steam](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P23373JLGVF) |
+| [Math](#makarov-math-suite) | 160 modules | [Origami and the Hopf fibration](https://vimeo.com/1245615935) | [Steam](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P5K9QRHHKKP) |
+| [Astronomy](#makarov-astronomy-suite) | 120 modules | [Black hole and galaxy encounter](https://vimeo.com/1245616056) | [Steam](https://store.steampowered.com/app/5447230/) · [Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR) |
+| [Engineering](#makarov-engineering-suite) | 160 entries | [Tiltrotor and cable robot](https://vimeo.com/1245616208) | In development |
+| [Earth](#makarov-earth-suite) | 80 entries | [Sea breeze and tsunami](https://vimeo.com/1245616348) | In development |
+| [Games](#makarov-games-suite) | 25 entries | [Eight-ball, chess and curling](https://vimeo.com/1245616428) | In development |
+
+Counts for Engineering, Earth and Games refer to their development catalogues. Some experiments appear in more than one Suite.
+
+[Browse the experiments](https://makarovphysics.com/) · Read the story on [DEV (English)](https://dev.to/makarov_mm/how-my-delphi-physics-lab-grew-into-makarov-suites-498o), [Qiita (日本語)](https://qiita.com/makarov-mm/items/4b6c5467db99d37b4ede) or [Zenn (日本語)](https://zenn.dev/makarov/articles/2e456c2fa7d76c).
+
+---
+
 ## About me
 
 I build software from the underlying algorithms to the finished product. Nearly 20 years of professional development have taken me through enterprise systems, legacy modernization, physics, graphics and infrastructure.
@@ -17,7 +36,7 @@ Enterprise development is my professional foundation: C#, .NET/.NET Core, ASP.NE
 
 I modernize systems that businesses still rely on: Delphi/Object Pascal with InterBase, Firebird and ADO; .NET Framework, WinForms, WebForms and ASP.NET MVC. The work means understanding undocumented behavior, untangling business logic and data access, improving SQL performance, and moving components to modern .NET without disrupting daily operations.
 
-Physics and computer graphics are a long-running personal pursuit. I build 2D/3D visualizations, renderers, ray/path tracers and physics engines from first principles: rigid bodies, fluids, particles, fields and numerical solvers. I use C#, C++, Rust and Swift with OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL and shaders; GDI+/Direct2D for 2D graphics, Python for numerical verification, and Erlang/Elixir for concurrent simulation experiments. I independently develop Makarov Suites: Physics and Math are available on Steam and Microsoft Store, Astronomy is available on Microsoft Store, and Earth and Engineering are in development.
+Physics and computer graphics are a long-running personal pursuit. I build 2D/3D visualizations, renderers, ray/path tracers and physics engines from first principles: rigid bodies, fluids, particles, fields and numerical solvers. I use C#, C++, Rust and Swift with OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL and shaders; GDI+/Direct2D for 2D graphics, Python for numerical verification, and Erlang/Elixir for concurrent simulation experiments. I independently develop Makarov Suites. Physics, Math and Astronomy are available on Steam and the Microsoft Store. Engineering, Earth and Games are in development.
 
 I have built and administered my own Linux servers, configured Apache and deployed backend services. My infrastructure experience also includes Windows Server, IIS, Bash, PowerShell, Git and automated delivery. I use Node.js/JavaScript and Python for backend development, scripting and tooling, with experience in Java, Spring and Hibernate.
 
@@ -36,7 +55,7 @@ Mein beruflicher Schwerpunkt ist die Enterprise-Entwicklung: C#, .NET/.NET Core,
 
 Ich modernisiere gewachsene Systeme: Delphi/Object Pascal mit InterBase, Firebird und ADO sowie .NET Framework, WinForms, WebForms und ASP.NET MVC. Dabei erschließe ich undokumentiertes Verhalten, entflechte Geschäftslogik und Datenzugriffe, optimiere SQL und überführe Komponenten schrittweise in modernes .NET, während der laufende Betrieb erhalten bleibt.
 
-Physik und Computergrafik begleiten mich seit vielen Jahren. Ich entwickle eigene 2D-/3D-Visualisierungen, Renderer, Ray-/Pathtracer und Physik-Engines: Starrkörper, Fluide, Partikel, Felder und numerische Solver. Dafür nutze ich C#, C++, Rust und Swift mit OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL und Shadern; GDI+/Direct2D für 2D-Grafik, Python zur numerischen Verifikation und Erlang/Elixir für nebenläufige Simulationsexperimente. Ich entwickle die Makarov Suites eigenständig: Physics und Math sind auf Steam und im Microsoft Store erhältlich, Astronomy ist im Microsoft Store verfügbar. Earth und Engineering befinden sich in Entwicklung.
+Physik und Computergrafik begleiten mich seit vielen Jahren. Ich entwickle eigene 2D-/3D-Visualisierungen, Renderer, Ray-/Pathtracer und Physik-Engines: Starrkörper, Fluide, Partikel, Felder und numerische Solver. Dafür nutze ich C#, C++, Rust und Swift mit OpenGL, Vulkan, DirectX 12, Metal, CUDA/OpenCL und Shadern; GDI+/Direct2D für 2D-Grafik, Python zur numerischen Verifikation und Erlang/Elixir für nebenläufige Simulationsexperimente. Ich entwickle die Makarov Suites eigenständig. Physics, Math und Astronomy sind auf Steam und im Microsoft Store erhältlich. An Engineering, Earth und Games arbeite ich derzeit.
 
 Ich habe eigene Linux-Server aufgebaut und administriert, Apache konfiguriert und Backend-Dienste bereitgestellt. Hinzu kommen Windows Server, IIS, Bash, PowerShell, Git und automatisierte Deployment-Prozesse. Node.js/JavaScript und Python nutze ich für Backends, Skripte und Werkzeuge; Erfahrung habe ich auch mit Java, Spring und Hibernate.
 
@@ -70,19 +89,7 @@ Fluid dynamics, N-body gravitation, rigid body dynamics, finite difference and s
 
 ## Selected projects
 
-I independently develop **Makarov Suites**, a family of interactive science applications built on a shared simulation and graphics codebase. The experiments run locally: change a parameter, work with the scene, and compare the result with measurements and plots.
-
-[Website, screenshots and downloads](https://makarovphysics.com/)
-
-| Product | Current catalogue | Availability |
-|---|---|---|
-| **Makarov Physics Suite** | 180 interactive modules · 9 rings of 20 | [Steam](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P23373JLGVF) |
-| **Makarov Math Suite** | 160 interactive modules · 8 rings of 20 | [Steam](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/) · [Microsoft Store](https://apps.microsoft.com/detail/9P5K9QRHHKKP) |
-| **Makarov Astronomy Suite** | 120 interactive modules · 6 rings of 20 | [Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR); Steam release in preparation |
-| **Makarov Earth Suite** | 80 entries · 23 working / 57 planned | In development |
-| **Makarov Engineering Suite** | 160 entries · 53 working / 107 planned | In development |
-
-Earth and Engineering are development projects. Their working counts include modules shared with the other Suites; the remaining catalogue entries are planned modules, not completed experiments.
+### How the Suites work
 
 The Windows applications use C# and .NET, an in-house module host and UI, a custom OpenGL renderer, and native CUDA, OpenCL or Vulkan computation in supported modules. The numerical models and rendering are developed without an off-the-shelf game engine. Each product's manifest selects its modules, carousel and resources; shared experiments use the same implementation across products.
 
@@ -92,7 +99,7 @@ The interface is multilingual. Windows support includes Simplified Chinese, Japa
 
 ### Makarov Physics Suite
 
-**180 interactive modules** covering mechanics, oscillations, fluids, waves, optics, electromagnetism, thermodynamics, quantum physics and nonlinear systems. Available on Steam and Microsoft Store.
+**200 interactive modules** covering mechanics, oscillations, fluids, waves, optics, electromagnetism, thermodynamics, quantum physics and nonlinear systems. Available on Steam and Microsoft Store.
 
 The collection ranges from individual experiments to machines you can operate: guide a robot arm, drive a forklift, balance a platform, inspect an engine, explore airflow around obstacles or follow particles in electromagnetic fields. Detailed apparatus, cutaways, materials, lighting and camera controls make the mechanism visible while measurements show what the model is doing.
 
@@ -127,7 +134,7 @@ The diagrams and 3D scenes are computed from the parameters. Exact identities an
 
 ### Makarov Astronomy Suite
 
-**120 interactive modules in six rings of twenty.** Available on Microsoft Store; the Steam release is in preparation.
+**120 interactive modules in six rings of twenty.** Available on Steam and the Microsoft Store.
 
 An astronomy laboratory for exploring planets, stars, galaxies, cosmology and spacecraft. Change the conditions, move around a 3D scene, and connect what you see with the quantities being measured.
 
@@ -139,31 +146,31 @@ An astronomy laboratory for exploring planets, stars, galaxies, cosmology and sp
 
 Each module is a focused educational model with its own assumptions, scales and measurements. The hardware scenes combine orbital or mechanical calculations with controls, cutaways and views of the working parts.
 
-[Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR) · [Website](https://makarovphysics.com/)
+[Steam](https://store.steampowered.com/app/5447230/) · [Microsoft Store](https://apps.microsoft.com/detail/9MWFBPB7TXHR) · [Website](https://makarovphysics.com/)
 
 ---
 
-### Makarov Earth Suite — in development
+### Makarov Earth Suite
 
-Earth science through interactive models: geology and tectonics, water and landscapes, atmosphere, climate and ecosystems.
+I use Earth Suite to explore how heat, water and rock move on different scales. In the sea-breeze model, follow the air inland at the surface and back out to sea higher up. Run the model through the night to see how the circulation responds as the land cools.
 
-The development catalogue has **80 entries in four rings**, with **23 working modules**: three new Earth experiments and twenty shared modules. The remaining 57 are planned.
-
-The first dedicated experiments explore plate boundaries, rainfall and runoff, and the sea breeze. Shared modules bring in subjects such as planetary interiors and predator–prey dynamics. The roadmap extends to faults and seismic waves, volcanoes, erosion, rivers, glaciers, groundwater, ocean circulation and climate processes.
-
-The goal is to let users change a cause, watch the system respond and compare the result with measurements. The first models have deliberately limited scope, documented alongside the experiments.
+Other experiments follow runoff after rain, motion at a plate boundary and tsunami propagation. The Windows application is in development. [Earth experiments](https://makarovphysics.com/earth/)
 
 ---
 
-### Makarov Engineering Suite — in development
+### Makarov Engineering Suite
 
-An interactive workshop for mechanisms, machines and control. The development catalogue has **160 entries in eight rings**, with **53 working modules**: 33 dedicated Engineering modules and twenty shared modules. The remaining 107 are planned.
+Engineering Suite is a workshop for mechanisms, machines and control. In a planetary gearbox, you can follow the motion of the sun gear, planet gears and carrier. In the cable robot, several winches move a single platform by changing cable lengths.
 
-The implemented mechanisms include gear trains and transmissions, belt and chain drives, screw actuators, clutches and brakes, universal and constant-velocity joints, cams, ratchets, a clock escapement, pantographs, straight-line linkages, a toggle press and a scissor lift. Shared scenes add robots, vehicles, engines and space hardware.
+The mechanisms use the shared 3D physics engine for joints, loads and drives. The same workshop also houses a tiltrotor, a packaging line and a CNC mill. The Windows application is in development. [Engineering experiments](https://makarovphysics.com/engineering/)
 
-The mechanisms use the common 3D physics engine: bodies, constraints, forces, torques, drives and loads. Measurements expose motion, mechanical advantage, energy and losses where the model supports them. Workshop benches, a precision-instrument room and an outdoor test yard give the new mechanisms a setting suited to their purpose.
+---
 
-The roadmap goes beyond individual transmissions: cable robots, flying machines, vehicle systems, manufacturing equipment, energy systems and historical instruments such as the astrolabe and Antikythera mechanism. A longer-term goal is a sandbox for connecting mechanisms into larger working assemblies; that assembly editor is still planned.
+### Makarov Games Suite
+
+After the break in eight-ball, the physics solver has to resolve a sequence of ball contacts. A chessboard can sit still for seconds while the computer considers its reply. I cache the geometry of the board and stationary pieces so that moving a chess piece or flipping a Reversi disc can be rendered separately.
+
+The development catalogue also includes snooker, curling, Go and mahjong solitaire.
 
 ---
 
@@ -289,7 +296,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - Zenn: [zenn.dev/makarov](https://zenn.dev/makarov)
 - Linktr: [linktr.ee/makarovmm](http://linktr.ee/makarovmm)
 - Makarov Suites: [makarovphysics.com](https://makarovphysics.com/)
-- Steam: [Makarov Physics Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov Math Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/)
+- Steam: [Makarov Physics Suite](https://store.steampowered.com/app/4861360/Makarov_Physics_Suite/), [Makarov Math Suite](https://store.steampowered.com/app/5204230/Makarov_Math_Suite/), [Makarov Astronomy Suite](https://store.steampowered.com/app/5447230/)
 - Microsoft Store: [Makarov Physics Suite](https://apps.microsoft.com/detail/9P23373JLGVF), [Makarov Math Suite](https://apps.microsoft.com/detail/9P5K9QRHHKKP), [Makarov Astronomy Suite](https://apps.microsoft.com/detail/9MWFBPB7TXHR)
 - Location: Munich, Bavaria, Germany
 - Availability: open to remote roles in Germany and the EU, or hybrid in Munich
