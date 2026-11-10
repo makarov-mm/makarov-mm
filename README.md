@@ -296,6 +296,12 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 ---
 
+## Dev.to
+
+- [How my Delphi physics lab grew into Makarov Suites](https://dev.to/makarov_mm/how-my-delphi-physics-lab-grew-into-makarov-suites-498o)
+
+---
+
 ## Qiitaで書いている記事
 
 - [Makarov Physics Suite — 動画32本の紹介](https://qiita.com/makarov-mm/items/4ee20a3bfcfbd3942ab4)
