@@ -276,6 +276,7 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 - LinkedIn: [linkedin.com/in/makarov-mm](https://www.linkedin.com/in/makarov-mm)
 - Threads: [threads.com/@m.m.makarov](https://www.threads.com/@m.m.makarov)
 - Twitter: [x.com/makarov_bayern](https://x.com/makarov_bayern)
+- Dev.to: [dev.to/makarov_mm](https://dev.to/makarov_mm)
 - YouTube: [youtube.com/@makarov.m.m](https://www.youtube.com/@makarov.m.m)
 - Vimeo: [vimeo.com/makarovphysics](https://vimeo.com/makarovphysics)
 - Instagram: [instagram.com/m.m.makarov](https://www.instagram.com/m.m.makarov)
