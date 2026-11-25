@@ -304,6 +304,44 @@ Russian and Ukrainian: native. English: professional working proficiency. German
 
 ---
 
+## My open source projects on the buymeacoffee.com
+
+- [Pulse - Alternative task manager](https://buymeacoffee.com/makarovmm/pulse-5312910)
+- [Voxel Editor for macOS](https://buymeacoffee.com/makarovmm/voxel-editor-macos)
+- [Strata - a puzzle game](https://buymeacoffee.com/makarovmm/strata-5303944)
+- [3D billiards game](https://buymeacoffee.com/makarovmm/a-3d-billiards-game)
+- [Go game](https://buymeacoffee.com/makarovmm/open-source-go-game-windows-linux-macos-c-swift-languages)
+- [3D Chess](https://buymeacoffee.com/makarovmm/3d-chess-c-23-win32-opengl-4-6)
+- [Artificial Life Lab](https://buymeacoffee.com/makarovmm/artificial-life-lab)
+- [Gravity Lab - 3D GPU N-body dynamics](https://buymeacoffee.com/makarovmm/gravity-lab-3d-gpu-n-body-dynamics)
+- [Wave Optics Lab - 3D GPU Edition](https://buymeacoffee.com/makarovmm/wave-optics-lab-3d-gpu-edition)
+- [Erosion Laboratory](https://buymeacoffee.com/makarovmm/erosion-laboratory)
+- [Material Laboratory](https://buymeacoffee.com/makarovmm/material-laboratory)
+- [Cloth - material & motion](https://buymeacoffee.com/makarovmm/cloth-material-motion)
+- [Magnetic Pendulum in Visual Basic 6](https://buymeacoffee.com/makarovmm/magnetic-pendulum-visual-basic-6)
+- [An interactive 3D incompressible Navier-Stokes solver](https://buymeacoffee.com/makarovmm/interactive-3d-incompressible-navier-stokes-solver)
+- [2D Navier–Stokes solver](https://buymeacoffee.com/makarovmm/2d-navier-stokes-solver)
+- [Realtime water simulation](https://buymeacoffee.com/makarovmm/realtime-water-simulation)
+- [Ray Tracing vs Path Tracing](https://buymeacoffee.com/makarovmm/ray-tracing-vs-path-tracing)
+- [Vulkan Hardware Path Tracing](https://buymeacoffee.com/makarovmm/vulkan-hardware-pathtracing)
+- [Vulkan water implementation](https://buymeacoffee.com/makarovmm/vulkan-water-implementation)
+- [Boids 3D](https://buymeacoffee.com/makarovmm/boids-3d)
+- [Fractal explorer](https://buymeacoffee.com/makarovmm/fractal-explorer)
+- [Gray-Scott reaction-diffusion](https://buymeacoffee.com/makarovmm/gray-scott-reaction-diffusion)
+- [Chladni figures](https://buymeacoffee.com/makarovmm/chladni-figures)
+- [Schrödinger](https://buymeacoffee.com/makarovmm/schrdinger)
+- [Fluid dynamics 2D](https://buymeacoffee.com/makarovmm/fluid-dynamics-4927024)
+- [Fluid dynamics](https://buymeacoffee.com/makarovmm/fluid-dynamics)
+- [Interactive simulator of elastic rods](https://buymeacoffee.com/makarovmm/interactive-simulator-elastic-rods-kirchhoff-rods)
+- [Seifenhaut](https://buymeacoffee.com/makarovmm/seifenhaut)
+- [3D Surfaces](https://buymeacoffee.com/makarovmm/3d-surfaces)
+- [Point vortices on the BEAM](https://buymeacoffee.com/makarovmm/point-vortices-beam-million-particles-metal)
+- [Dendrite](https://buymeacoffee.com/makarovmm/dendrite)
+- [Drone simulator](https://buymeacoffee.com/makarovmm/update-drone-simulator)
+- [Autonomous ecosystem simulation](https://buymeacoffee.com/makarovmm/the-meadow-nights-wolves-know)
+
+---
+
 ## Dev.to
 
 - [How my Delphi physics lab grew into Makarov Suites](https://dev.to/makarov_mm/how-my-delphi-physics-lab-grew-into-makarov-suites-498o)
